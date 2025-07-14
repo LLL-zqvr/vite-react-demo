@@ -1,0 +1,5 @@
+.boardRow {
+    height: 50px;
+    display: flex;
+    bottom: 0;
+}

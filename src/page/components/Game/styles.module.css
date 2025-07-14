@@ -1,0 +1,8 @@
+.game {
+    display: flex;
+}
+.gameBoard {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+}

@@ -1,0 +1,2 @@
+- pnpm add -D @types/node
+- npm install yet-another-react-lightbox  
