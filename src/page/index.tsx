@@ -9,6 +9,7 @@ import UseContext from "@/page/hooks/useContext";
 import PreviewImg from '@/page/components/PreviewImg/index'
 import ImageList from "./components/ImageList";
 import { showImagePreviewer } from "./components/PreviewImgJs";
+import {MyComponent} from './components/test'
 // import YetPreviewImg from "./components/YetPreviewImg";
 // import PreviewImgJs from "./components/PreviewImgJs"
 // import ReactViewer from "./components/ReactViewer"
@@ -24,14 +25,8 @@ export default function Home() {
      <PreviewImg />
      <ImageList />
      <img src="./image.png" alt="示例图" onClick={()=>{showImagePreviewer('./image.png')}}/>
-     {/* <YetPreviewImg />
-     <div style={{ width: '100px', height: '100px' }}>
-      <PreviewImgJs src="./image.png"
-        alt="示例图"
-        style={{ width: '100px', height: '100px' }}
-        />
-     </div>
-     <ReactViewer /> */}
+ <p className="text-red-600">Tailwind CSS is working 🎉</p>
+ <MyComponent />
     </>
   );
 }

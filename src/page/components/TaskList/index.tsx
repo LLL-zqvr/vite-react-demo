@@ -1,4 +1,4 @@
-import {type Task } from "@/page/hooks/useReducer/useStoreComparison"
+import {type Task } from "@/page/hooks/useReducer/useStateComparison"
 import { useState } from "react"
 interface ChangeTaskProps {
     tasks:Task[],
